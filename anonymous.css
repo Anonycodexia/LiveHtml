@@ -1,0 +1,81 @@
+
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+  }
+
+.clearLink {
+  width:100%; margin-bottom: 5px; background-color: #9400d3; font-family: serif; font-weight: bold; box-shadow: 0px 0px 10px yellow; border-radius: 9px; border-bottom: 3px solid yellow; color: white; padding: 12px 30px; cursor: pointer; font-size: 40px;
+}
+textarea {
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  width: 32%;
+  min-height: 150px;
+  margin: 15px 2% 0 0;
+  float: left;
+  font-size: 10pt;
+  line-height: 14pt;
+  font-weight: bold;
+  padding: 10px;
+  color: blue;
+  border: 4px solid blue;
+  background: cyan;
+  box-shadow: inset rgba(0,0,0,.05) 0 3px 10px;
+  border-radius: 3px;
+  transition: all 0.2s ease-in-out;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+textarea:focus {
+  border-color: #33dd33;
+}
+
+textarea#js {
+  margin: 15px 0 0 0;
+}
+
+iframe {
+   background-color: cyan;
+  width: 100%;
+  margin: 15px 0;
+  border: 4px solid blue;
+  border-radius: 3px;
+  min-height: 400px;
+  margin: 15px 0 0 0;
+}
+
+@media (min-width:768px) {
+
+  body {
+    padding: 50px 50px 0 50px;
+  }
+
+  html,
+  body,
+  section {
+    height: auto;
+  }
+
+}
+-radius: 3px;
+  min-height: 400px;
+  margin: 15px 0 0 0;
+}
+
+@media (min-width:768px) {
+
+  body {
+    padding: 50px 50px 0 50px;
+  }
+
+  html,
+  body,
+  section {
+    height: auto;
+  }
+
+}

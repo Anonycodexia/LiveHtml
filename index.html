@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>code editor</title>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href="anonymous.css" rel="stylesheet">
+  <script src="jquery.min.js" type="text/javascript"></script>
+  <script src="editor.js" type="text/javascript"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui" />
+  <meta name="format-detection" content="telephone=no">
+</head>
+<body style="background-color: white;
+        background-image: linear-gradient(fuchsia,blue);
+      box-sizing: border-box;
+      margin: 0;
+      height: 100%;
+     background-repeat: no-repeat; 
+     background-attachment: fixed;
+      padding: 13px;
+      display: flex;
+      flex-direction: column;
+      max-height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
+      	  <section>
+    <h1 style="text-align: center; margin-bottom: 15px; margin-top: 5px; font-weight: bold; font-size: 80px; background: gold; box-shadow: 0px 0px 20px orange; color: blue; border-radius: 6px;">Live Html Code Editor</h1><button class="clearLink" title="Click to clear all">Click hear to Clear Screen</button>
+    <iframe id="preview"></iframe>
+  <textarea id="html" value="" placeholder="Please write your HTML code here" autocapitalize="off" autofocus></textarea>
+    <textarea id="css" value="" placeholder="Please write your CSS code here" autocapitalize="off"></textarea>
+    <textarea id="js" value="" placeholder="Please write your JavaScript code here" autocapitalize="off"></textarea></section>
+</body>
+</html>
